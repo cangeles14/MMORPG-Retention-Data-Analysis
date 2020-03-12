@@ -1,8 +1,15 @@
 # Video Game Data Analysis with Life Beyond @ Ironhack Paris
 
+
+<img src="https://github.com/cangeles14/Darewise-MMORPG-Data-Analysis/blob/master/visualizations/DarewiseLogo.png" width="50%" height="75%">
+
 Darewise is a company looking to create long-term and meaningful social experiences for players, changing how the world views online games
 
+<img src="https://github.com/cangeles14/Darewise-MMORPG-Data-Analysis/blob/master/visualizations/LifeBeyondLogo.png" width="50%" height="75%">
+
 They are the developers behind Life Beyond, a currently in development, open world and persistent game where teamwork and player choice unlock rich social adventures.
+
+<img src="https://github.com/cangeles14/Darewise-MMORPG-Data-Analysis/blob/master/visualizations/LifeBeyondImg.png" width="50%" height="75%">
 
 ## Purpose
 
