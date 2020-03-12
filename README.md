@@ -1,4 +1,4 @@
-# Video Game Data Analysis with Life Beyond @ Ironhack Paris
+# MMORPG Life Beyond Player Retention With Darewise Entertainment
 
 
 <img src="https://github.com/cangeles14/Darewise-MMORPG-Data-Analysis/blob/master/visualizations/DarewiseLogo.png" width="50%" height="75%">
@@ -55,6 +55,10 @@ MAU or monthly active users are players that played at least once within a month
 Stickiness rate is the ratio of monthly users that are also daily users. This can be seen as DAU/MAU. This metric is helpful to see the rate of players that are continuing to play overtime.
 
 The session time or how long a player is playing in a sitting can be extremely helpful when discovering what your players are doing and what keeps them in the game.
+
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/Average%20Playtime%20vs%20First%20Session%20Playtime.png" width="50%" height="75%">
+
+Although it may seems obvious, but having a good first experience in a video game has long term effects on if the player will come back and keep playing.
  
 ## Prediction Model
 
@@ -62,7 +66,14 @@ Part of this project was to propose a prediction model to influence Darewise to 
 
 To do this I created a Categorical Boost prediction model. This model uses the in game player activity and the players demographics to predict the average session playtime. By predicting the average session playtime Darewise will be able to invite new players that are more likely to have longer play sessions. This will both increase retention and also allow them to collect more data to increase their analysis on their playerbase.
 
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/Logistic%20Regression%20Model.png" width="50%" height="75%">
+
 Optimization is key to producing an effective and accurate model. To do this I tested multiple models and compared different metrics including recall, accuracy, precision, and F1 scores. Additionally, I compared the prediction statistics of each model via a confusion matrix.
+
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/PredictionModelOptCode.png" width="50%" height="75%">
+
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/AccuracyOfModels.png" width="50%" height="75%">
+
 
 ## Conclusions
 
@@ -71,6 +82,10 @@ PLAYER STATISTICS - Since Life Beyond is still in development, only a select num
 NEW PLAYERS - With this in mind, numerous players have shown interest in playing. This is most benefitcial for Darewise as having a large interest in your game allows for potential to collect more data.
 
 INVITE BEST PLAYERS - Using this prediction model, we can invite new players that will play Life Beyond the longest - increasing rentention rate by having longer playing players, but also allowing to collect more game data statistics.
+
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/Resource%20Gathering%20Frequency%20by%20Genre%20Preference.png" width="50%" height="75%">
+
+<img src="https://github.com/cangeles14/MMORPG-Retention-Data-Analysis/blob/master/visualizations/Average%20Session%20Playtime%20by%20Genre%20Preference%20(1).png" width="50%" height="75%">
 
 
 ## Built With
